@@ -592,6 +592,7 @@ local function ChangeTheme(Theme)
 	Main.Search.UIStroke.Color = SelectedTheme.SecondaryElementStroke
 
 	if Main:FindFirstChild('Notice') then
+		Notice.Visible = false
 		Main.Notice.BackgroundColor3 = SelectedTheme.Background
 	end
 
