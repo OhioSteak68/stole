@@ -1417,7 +1417,7 @@ function RayfieldLibrary:CreateWindow(Settings)
 
 	Topbar.Visible = false
 	Elements.Visible = false
-	LoadingFrame.Visible = true
+	LoadingFrame.Visible = false
 
 	if not Settings.DisableRayfieldPrompts then
 		task.spawn(function()
